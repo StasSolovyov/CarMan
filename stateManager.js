@@ -1,4 +1,4 @@
-const { CHAT_ID_1, CHAT_ID_2 } = require('./env'); // Импортируем константы ID чатов
+const { CHAT_ID_1, CHAT_ID_2 } = require('./config'); // Импортируем константы ID чатов
 let state = {}; // Состояние для хранения данных о каждом чате
 let isNotified = { [CHAT_ID_1]: false, [CHAT_ID_2]: false }; // Состояние уведомления для каждого администратора
 
